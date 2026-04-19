@@ -28,6 +28,12 @@
   --radius-4xl: calc(var(--radius) + 16px);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-brand-surface: var(--brand-surface);
+  --color-brand-surface-hover: var(--brand-surface-hover);
+  --color-brand-deep: var(--brand-deep);
+  --color-brand-muted: var(--brand-muted);
+  --font-sans:
+    "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --color-card: var(--card);
   --color-card-foreground: var(--card-foreground);
   --color-popover: var(--popover);
@@ -62,9 +68,14 @@
 }
 
 :root {
-  --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.129 0.042 264.695);
+  --radius: 0.875rem;
+  /* Hydr4 Lab brand palette */
+  --background: oklch(0.45 0.07 155);          /* #2d6a4f deep green */
+  --foreground: oklch(1 0 0);                   /* #ffffff white */
+  --brand-surface: oklch(0.4 0.065 155);        /* #235c43 card */
+  --brand-surface-hover: oklch(0.46 0.07 155);  /* hover lighter */
+  --brand-deep: oklch(0.34 0.06 155);           /* #1e4f39 icon bg */
+  --brand-muted: oklch(0.92 0.02 165);          /* #d0ece4 soft text */
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.129 0.042 264.695);
   --popover: oklch(1 0 0);
