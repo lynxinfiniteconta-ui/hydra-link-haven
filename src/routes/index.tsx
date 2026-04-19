@@ -75,18 +75,11 @@ function Index() {
     <main className="min-h-screen bg-background px-5 py-10 font-sans text-foreground">
       <div className="mx-auto flex w-full max-w-[480px] flex-col items-center">
         {/* Logo */}
-        <div className="flex h-28 w-28 items-center justify-center rounded-full bg-brand-deep shadow-lg ring-1 ring-white/5">
-          <div className="flex flex-col items-center leading-none">
-            <div className="flex items-end gap-[3px]">
-              <span className="h-7 w-[3px] rounded-sm bg-white" />
-              <span className="h-9 w-[3px] rounded-sm bg-white" />
-              <span className="h-7 w-[3px] rounded-sm bg-white" />
-            </div>
-            <span className="mt-1.5 text-[11px] font-bold tracking-[0.18em] text-white">
-              HYDR4
-            </span>
-          </div>
-        </div>
+        <img
+          src={hydr4Logo}
+          alt="Hydr4 Lab"
+          className="h-32 w-32 object-contain"
+        />
 
         {/* Brand name */}
         <h1 className="mt-5 text-3xl font-extrabold tracking-tight text-foreground">
