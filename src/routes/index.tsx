@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { BookOpen, Instagram, Music2, Facebook } from "lucide-react";
+import hydr4Logo from "@/assets/hydr4-logo.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
