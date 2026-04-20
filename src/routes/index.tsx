@@ -84,7 +84,7 @@ function Index() {
 
         {/* Brand name */}
         <h1 className="mt-5 text-3xl font-extrabold tracking-tight text-foreground">
-          Hydr4 Lab
+          ​
         </h1>
 
         {/* Subtitle */}
