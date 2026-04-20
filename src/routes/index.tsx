@@ -72,29 +72,24 @@ const links: LinkItem[] = [
 
 function Index() {
   return (
-    <main className="min-h-screen bg-background px-5 py-10 font-sans text-foreground">
+    <main className="min-h-screen bg-background px-5 py-5 font-sans text-foreground">
       <div className="mx-auto w-full max-w-[480px] flex-col border-0 flex items-center justify-start">
         {/* Logo */}
         <img
           src={hydr4Logo}
           alt="Hydr4 Lab"
-          className="mx-auto h-[180px] w-[180px] rounded-full bg-transparent object-contain"
+          className="mx-auto h-[130px] w-[130px] rounded-full bg-transparent object-contain"
         />
 
-        {/* Brand name */}
-        <h1 className="mt-5 text-3xl font-extrabold tracking-tight text-foreground">
-          ​
-        </h1>
-
         {/* Subtitle */}
-        <div className="mt-4 space-y-1.5 text-center text-[15px] leading-relaxed text-brand-muted">
+        <div className="mt-3 space-y-1 text-center text-[14px] leading-snug text-brand-muted">
           <p>🌿 Sempre em busca da sua melhor versão.</p>
           <p>🎯 Dicas práticas e soluções que funcionam.</p>
           <p>🔥 Comece a mudar sua vida hoje!</p>
         </div>
 
         {/* Links list */}
-        <nav className="mt-8 flex w-full flex-col gap-3.5">
+        <nav className="mt-5 flex w-full flex-col gap-2.5">
           {links.map((link) => (
             <a
               key={link.title}
