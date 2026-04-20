@@ -72,40 +72,40 @@ const links: LinkItem[] = [
 
 function Index() {
   return (
-    <main className="min-h-screen bg-background px-5 py-5 font-sans text-foreground">
+    <main className="min-h-screen bg-background px-5 py-6 font-sans text-foreground">
       <div className="mx-auto w-full max-w-[480px] flex-col border-0 flex items-center justify-start">
         {/* Logo */}
         <img
           src={hydr4Logo}
           alt="Hydr4 Lab"
-          className="mx-auto h-[130px] w-[130px] rounded-full bg-transparent object-contain"
+          className="mx-auto h-[180px] w-[180px] rounded-full bg-transparent object-contain"
         />
 
         {/* Subtitle */}
-        <div className="mt-3 space-y-1 text-center text-[14px] leading-snug text-brand-muted">
+        <div className="mt-4 space-y-1.5 text-center text-[15px] leading-relaxed text-brand-muted">
           <p>🌿 Sempre em busca da sua melhor versão.</p>
           <p>🎯 Dicas práticas e soluções que funcionam.</p>
           <p>🔥 Comece a mudar sua vida hoje!</p>
         </div>
 
         {/* Links list */}
-        <nav className="mt-5 flex w-full flex-col gap-2.5">
+        <nav className="mt-7 flex w-full flex-col gap-3">
           {links.map((link) => (
             <a
               key={link.title}
               href={link.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex items-center gap-3 rounded-xl border border-brand-deep bg-brand-surface px-3 py-2.5 transition-all duration-200 hover:bg-brand-surface-hover hover:shadow-md hover:-translate-y-[1px] active:translate-y-0"
+              className="group flex items-center gap-3.5 rounded-2xl border border-brand-deep bg-brand-surface px-4 py-3.5 transition-all duration-200 hover:bg-brand-surface-hover hover:shadow-md hover:-translate-y-[1px] active:translate-y-0"
             >
-              <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-brand-deep text-foreground">
+              <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-brand-deep text-foreground">
                 {link.icon}
               </span>
               <span className="flex min-w-0 flex-col">
-                <span className="text-[14px] font-bold leading-tight text-foreground">
+                <span className="text-[15px] font-semibold leading-snug text-foreground">
                   {link.title}
                 </span>
-                <span className="mt-0.5 text-[12px] leading-tight text-brand-muted">
+                <span className="mt-0.5 text-[12.5px] leading-snug text-brand-muted">
                   {link.description}
                 </span>
               </span>
@@ -114,7 +114,7 @@ function Index() {
         </nav>
 
         {/* Footer */}
-        <footer className="mt-5 mb-2 text-center text-xs text-brand-muted">
+        <footer className="mt-7 mb-2 text-center text-xs text-brand-muted">
           © 2025 — Criado por Hydr4 Lab. ❤️
         </footer>
       </div>
