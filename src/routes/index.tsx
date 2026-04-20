@@ -78,8 +78,7 @@ function Index() {
         <img
           src={hydr4Logo}
           alt="Hydr4 Lab"
-          className="mx-auto w-full max-w-[220px] object-contain"
-          style={{ mixBlendMode: "difference" }}
+          className="mx-auto h-[180px] w-[180px] rounded-full object-cover"
         />
 
         {/* Brand name */}
