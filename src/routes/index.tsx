@@ -79,7 +79,7 @@ function Index() {
           src={hydr4Logo}
           alt="Hydr4 Lab"
           className="mx-auto w-full max-w-[220px] object-contain"
-          style={{ mixBlendMode: "screen" }}
+          style={{ mixBlendMode: "difference" }}
         />
 
         {/* Brand name */}
