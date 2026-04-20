@@ -96,16 +96,16 @@ function Index() {
               href={link.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex items-center gap-4 rounded-2xl border border-brand-deep bg-brand-surface px-4 py-4 transition-all duration-200 hover:bg-brand-surface-hover hover:shadow-md hover:-translate-y-[1px] active:translate-y-0"
+              className="group flex items-center gap-3 rounded-xl border border-brand-deep bg-brand-surface px-3 py-2.5 transition-all duration-200 hover:bg-brand-surface-hover hover:shadow-md hover:-translate-y-[1px] active:translate-y-0"
             >
-              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-brand-deep text-foreground">
+              <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-brand-deep text-foreground">
                 {link.icon}
               </span>
               <span className="flex min-w-0 flex-col">
-                <span className="text-[15px] font-bold leading-snug text-foreground">
+                <span className="text-[14px] font-bold leading-tight text-foreground">
                   {link.title}
                 </span>
-                <span className="mt-0.5 text-[13px] leading-snug text-brand-muted">
+                <span className="mt-0.5 text-[12px] leading-tight text-brand-muted">
                   {link.description}
                 </span>
               </span>
@@ -114,7 +114,7 @@ function Index() {
         </nav>
 
         {/* Footer */}
-        <footer className="mt-10 mb-2 text-center text-xs text-brand-muted">
+        <footer className="mt-5 mb-2 text-center text-xs text-brand-muted">
           © 2025 — Criado por Hydr4 Lab. ❤️
         </footer>
       </div>
