@@ -41,19 +41,19 @@ const links: LinkItem[] = [
   {
     title: "Método Oculto",
     description: "Emagrecimento Natural Sem Usar Canetinhas Milagrosas.",
-    href: "#",
+    href: "https://pay.cakto.com.br/8azou3d_525892",
     icon: <BookOpen className="h-5 w-5" strokeWidth={2} />,
   },
   {
     title: "104 Receitas Para Emagrecer (Sem Deixar o Doce de Lado)",
     description: "Perfeito para quem quer perder peso sem abrir mão do sabor!",
-    href: "#",
+    href: "https://pay.cakto.com.br/ss4t24p_520762",
     icon: <BookOpen className="h-5 w-5" strokeWidth={2} />,
   },
   {
     title: "Instagram",
     description: "Siga para conteúdo diário.",
-    href: "#",
+    href: "https://www.instagram.com/hydr4.lab/",
     icon: <Instagram className="h-5 w-5" strokeWidth={2} />,
   },
   {
@@ -65,7 +65,7 @@ const links: LinkItem[] = [
   {
     title: "Facebook",
     description: "Siga para conteúdo diário.",
-    href: "#",
+    href: "https://www.facebook.com/profile.php?id=61570746263366",
     icon: <Facebook className="h-5 w-5" strokeWidth={2} />,
   },
 ];
@@ -78,7 +78,8 @@ function Index() {
         <img
           src={hydr4Logo}
           alt="Hydr4 Lab"
-          className="h-32 w-32 object-contain"
+          className="mx-auto w-full max-w-[220px] object-contain"
+          style={{ mixBlendMode: "screen" }}
         />
 
         {/* Brand name */}
@@ -99,6 +100,8 @@ function Index() {
             <a
               key={link.title}
               href={link.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group flex items-center gap-4 rounded-2xl border border-brand-deep bg-brand-surface px-4 py-4 transition-all duration-200 hover:bg-brand-surface-hover hover:shadow-md hover:-translate-y-[1px] active:translate-y-0"
             >
               <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-brand-deep text-foreground">
