@@ -73,7 +73,7 @@ const links: LinkItem[] = [
 function Index() {
   return (
     <main className="min-h-screen bg-background px-5 py-10 font-sans text-foreground">
-      <div className="mx-auto flex w-full max-w-[480px] flex-col items-center">
+      <div className="mx-auto w-full max-w-[480px] flex-col border-0 flex items-center justify-start">
         {/* Logo */}
         <img
           src={hydr4Logo}
