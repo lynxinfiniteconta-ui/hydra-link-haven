@@ -78,7 +78,7 @@ function Index() {
         <img
           src={hydr4Logo}
           alt="Hydr4 Lab"
-          className="mx-auto h-[180px] w-[180px] rounded-full object-cover"
+          className="mx-auto h-[180px] w-[180px] rounded-full bg-transparent object-contain"
         />
 
         {/* Brand name */}
